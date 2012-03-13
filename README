@@ -1,0 +1,22 @@
+sleep.php
+
+
+introduce an artificial delay for resources
+
+
+Works by issuing an HTTP redirect to the GET parameter 'u'
+after an amount of time (GET param 's' or random #).
+
+Copyright (c) 2012 Port 8000 GmbH
+This code can be used under the terms of the GPL and MIT licenses.
+
+
+Usage:
+
+Copy sleep.php to the docroot (or any other place accessible for
+your server).
+
+Then put this in your HTML file:
+    <img src="sleep.php?u=cat.jpg&amp;s=10" alt="" />
+and the nice cat image will be loaded after 10 seconds.
+
