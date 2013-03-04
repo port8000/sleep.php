@@ -7,7 +7,7 @@
  * Works by issuing an HTTP redirect to the GET parameter 'u'
  * after an amount of time (GET param 's' or random #).
  *
- * Copyright (c) 2012 Port 8000 GmbH
+ * Copyright (c) 2012 Port 8000
  * This code can be used under the terms of the GPL and MIT licenses.
  */
 
